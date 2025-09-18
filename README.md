@@ -16,18 +16,22 @@ A self-contained demo that shows how a drop-in chat widget (embed.js) can talk t
 * npm 9+ (bundled with recent Node.js versions)
 
 ## Getting Started
-
-```bash
 # Clone your fork of the repo
+```bash
 git clone https://github.com/kunmifab/embed-js-chat-widget.git
 cd embed-demo
+```
 
 # Install dependencies
+```bash
 npm install
+```
 
 # Start the demo server (listens on http://localhost:3000)
+```bash
 node src/server.js
 ```
+
 
 Once the server is running, open [http://localhost:3000](http://localhost:3000) in a browser. The public/host.html page loads the widget via the script tag that would normally live on a customer site.
 
