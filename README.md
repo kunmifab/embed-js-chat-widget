@@ -29,8 +29,9 @@ npm install
 
 # Start the demo server (listens on http://localhost:3000)
 ```bash
-node src/server.js
+node src/server.js or npm start
 ```
+
 
 
 Once the server is running, open [http://localhost:3000](http://localhost:3000) in a browser. The public/host.html page loads the widget via the script tag that would normally live on a customer site.
@@ -97,8 +98,6 @@ Add the following script tag to any HTML page (adjust attributes as needed):
 
 * Conversation history and pending long-poll requests live in memory; restart the server to reset state
 * The simulated AI reply uses a canned set of responses with randomized delay to mimic real processing
-* Feel free to add a start script (e.g. "start": "node src/server.js") if you prefer
-  pm start
 * For production-style deployments, you�d typically add persistence, authentication, rate limiting, metrics, and swap long polling for WebSockets where infrastructure allows it
 
 ## Extending the Demo
