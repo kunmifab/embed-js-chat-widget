@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Embed Host Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>body{font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif;padding:32px}</style>
+  </head>
+  <body>
+    <h1>Host page</h1>
+    <p>This page simulates a customer site that drops in your embed.js.</p>
+
+    <!-- Switch transport by changing data-transport="poll" or "ws" -->
+    <script
+      src="http://localhost:3000/embed.js"
+      data-company="ftl-demo"
+      data-transport="ws"
+      data-position="top-left"
+      data-api="http://localhost:3000">
+    </script>
+  </body>
+</html>
