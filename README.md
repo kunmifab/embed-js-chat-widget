@@ -29,9 +29,12 @@ npm install
 
 # Start the demo server (listens on http://localhost:3000)
 ```bash
-node src/server.js or npm start
+node src/server.js
 ```
-
+OR
+```bash
+npm start
+```
 
 
 Once the server is running, open [http://localhost:3000](http://localhost:3000) in a browser. The public/host.html page loads the widget via the script tag that would normally live on a customer site.
