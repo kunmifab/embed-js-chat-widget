@@ -17,15 +17,15 @@ A self-contained demo that shows how a drop-in chat widget (embed.js) can talk t
 
 `Bash
 # Clone your fork of the repo
- git clone https://github.com/<your-user>/embed-demo.git
- cd embed-demo
+ `git clone https://github.com/kunmifab/embed-js-chat-widget.git`
+ `cd embed-demo`
 
 # Install dependencies
  npm install
 
 # Start the demo server (listens on http://localhost:3000)
  node src/server.js
-`
+
 
 Once the server is running, open <http://localhost:3000> in a browser. The public/host.html page loads the widget via the script tag that would normally live on a customer site.
 
